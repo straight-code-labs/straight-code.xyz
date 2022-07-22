@@ -2,7 +2,7 @@
   
   .container {
     display: flex;
-    justify-content: space-between 5px;
+    justify-content: space 5px;
     align-items: center;
     flex-wrap: wrap;
     height: 97vh;
