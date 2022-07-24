@@ -27,7 +27,7 @@ const Menu = props => {
 
 
     React.createElement("li", null, /*#__PURE__*/
-    React.createElement("a", { href: "https://github.com/sponsors/straight-code", onClick: props.toggleMenu }, "SPONSORS")), /*#__PURE__*/
+    React.createElement("a", { href: "https://github.com/sponsors/straight-code", onClick: props.toggleMenu }, "SPONSOR")), /*#__PURE__*/
 
 
     
@@ -120,7 +120,7 @@ const Header = props => {
   
   
   
-      React.createElement("p", null, "Learn how to make your own project using many different languages we provide, with access to our support team group for 24/7 support while having a step by step by and loads of tips and tricks! ")), /*#__PURE__*/
+      React.createElement("p", null, "Learn how to code using the courses that we provide, with access to our support team for 24/7 support while having a step by step tutorials while adding loads of tips and tricks for you to take with you in your future of becoming a web developer ")), /*#__PURE__*/
   
   
   
@@ -128,7 +128,7 @@ const Header = props => {
   
   
       React.createElement("div", { className: "title" }, /*#__PURE__*/
-      React.createElement("h3", null, ""), /*#__PURE__*/
+      React.createElement("h3", null, "Having problems with your code?"), /*#__PURE__*/
       React.createElement("p", { className: "separator" })), /*#__PURE__*/
   
 
@@ -142,7 +142,7 @@ const Header = props => {
   
       React.createElement("div", { className: "desc" }, /*#__PURE__*/
       React.createElement("h4", { className: "subtitle" }, ""), /*#__PURE__*/
-      React.createElement("p", null, ""), /*#__PURE__*/
+      React.createElement("p", null, "Let the straight-code team help you by choosing a plan we provide that fits your needs if you are unsure on the service you need please do hesitate to contact support with your enquiry."), /*#__PURE__*/
   
   
   
