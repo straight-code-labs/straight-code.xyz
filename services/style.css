@@ -208,6 +208,7 @@ button, a {
   align-items: center;
   padding-left: 12px;
   border-left: 2px solid #ddd;
+  text-decoration: none;
 }
 .profile-btn img {
   width: 32px;
@@ -222,6 +223,7 @@ button, a {
   font-size: 16px;
   line-height: 24px;
   font-weight: 700;
+  text-decoration: none;
 }
 
 .page-content  {
@@ -861,4 +863,38 @@ button, a {
     right: 2px;
     top: 10px;
   }
+}
+/* Popup container - can be anything you want */
+.popup {
+  position: relative;
+  display: inline-block;
+  cursor: pointer;
+  -webkit-user-select: none;
+  -moz-user-select: none;
+  -ms-user-select: none;
+  user-select: none;
+}
+
+/* The actual popup */
+.popup .popuptext {
+  visibility: hidden;
+  width: 160px;
+  background-color: #555;
+  color: #fff;
+  text-align: center;
+  border-radius: 6px;
+  padding: 8px 0;
+  position: absolute;
+  z-index: 1;
+  bottom: 125%;
+  left: 50%;
+  margin-left: -80px;
+}
+.hide {
+  display: none;
+}
+
+.mypopup:hover + .hide {
+  display: block;
+  color: red;
 }

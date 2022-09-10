@@ -142,7 +142,7 @@ const Header = props => {
   
       React.createElement("div", { className: "desc" }, /*#__PURE__*/
       React.createElement("h4", { className: "subtitle" }, ""), /*#__PURE__*/
-      React.createElement("p", null, "Let the straight-code team help you by choosing a plan we provide that fits your needs if you are unsure on the service you need please do hesitate to contact support with your enquiry."), /*#__PURE__*/
+      React.createElement("p", null, "Let the straight-code team help by choosing a plan we provide that fits your needs if you are unsure on the service you need please do hesitate to contact support with your enquiry."), /*#__PURE__*/
   
   
   
@@ -226,29 +226,50 @@ const Projects = props => {
 
     React.createElement("div", { className: "projects-wrapper" }, /*#__PURE__*/
     React.createElement(Project, {
-      title: "straightVPN",
-      img: './assets/VPN.png',
+      title: "VPN",
+      img: './assets/comingsoon.png',
       tech: "js css react node",
       link: "https://vpn.straight-code.xyz",
       repo: "https://github.com/straight-code/VPN" }, /*#__PURE__*/
 
     React.createElement("small", null, "Built using Node, CSS and React."), /*#__PURE__*/
-    React.createElement("p", null, "This is a full-stack website that I made which lets the users read straight-codes blog")), /*#__PURE__*/
+    React.createElement("p", null, "This is a full-stack website that I made which lets the users use straight-code' VPN")), /*#__PURE__*/
    
 
-    React.createElement("div", { className: "projects-wrapper" }, /*#__PURE__*/
     React.createElement(Project, {
       title: "Cloud Storage.",
-      img: './assets/cloud.png',
+      img: './assets/comingsoon.png',
       tech: "js css react node",
       link: "https://cloud.straight-code.xyz",
-      repo: "https://github.com/straight-code/cloud" }, /*#__PURE__*/
+      repo: "https://github.com/straight-code/cloud-frontend" }, /*#__PURE__*/
 
     React.createElement("small", null, "Built using Node, CSS and React."), /*#__PURE__*/
-    React.createElement("p", null, "This is a full-stack website that I made which lets the users read straight-codes blog")), /*#__PURE__*/
+    React.createElement("p", null, "This is a full-stack website that I made which lets you get yourself a storage plan.")), /*#__PURE__*/
    
 
-    React.createElement("div", { className: "projects-wrapper" }, /*#__PURE__*/
+    
+    React.createElement(Project, {
+      title: "Hosting.",
+      img: './assets/comingsoon.png',
+      tech: "js css react node",
+      link: "https://hosting.straight-code.xyz",
+      repo: "https://github.com/straight-code/hosting-frontend" }, /*#__PURE__*/
+
+    React.createElement("small", null, "Built using Node, CSS and React."), /*#__PURE__*/
+    React.createElement("p", null, "This is a full-stack website that I made which lets the users host for next to nothing.")), /*#__PURE__*/
+   
+
+    React.createElement(Project, {
+      title: "MINT a nft",
+      img: './assets/mint.png',
+      tech: "js css html react node",
+      link: "https://mint.straight-code.xyz",
+      repo: "https://github.com/straight-code/" }, /*#__PURE__*/
+
+    React.createElement("small", null, "Built using Node, CSS and React."), /*#__PURE__*/
+    React.createElement("p", null, "This is a full-stack website that I made which lets the users Mint an NFT on the Blockchain")), /*#__PURE__*/
+   
+    
     React.createElement(Project, {
       title: "Shop",
       img: './assets/shop.png',
@@ -257,20 +278,20 @@ const Projects = props => {
       repo: "https://github.com/straight-code/shop" }, /*#__PURE__*/
 
     React.createElement("small", null, "Built using Node, CSS and React."), /*#__PURE__*/
-    React.createElement("p", null, "This is a full-stack website that I made which lets the users read straight-codes blog")), /*#__PURE__*/
-   
+    React.createElement("p", null, "This is a full-stack dapp that I made which lets the users buy items on the blockchain")), /*#__PURE__*/
+
 
     React.createElement(Project, {
-            title: "Courses",
-      img: './assets/courses.png',
-      tech: "js react css",
+      title: "courses",
+      img: './assets/comingsoon.png',
+      tech: "js css html react node",
       link: "https://courses.straight-code.xyz",
-      repo: "https://github.com/straight-code/courses" }, /*#__PURE__*/
+      repo: "https://github.com/straight-code/courses-frontend" }, /*#__PURE__*/
 
-    React.createElement("small", null, "Built using React and CSS."), /*#__PURE__*/
-    React.createElement("p", null, "A Course providing service made from React and CSS."))))))));
-
-
+    React.createElement("small", null, "Built using Node, CSS and React."), /*#__PURE__*/
+    React.createElement("p", null, "This is a full-stack website that I made which lets the users browse courses that straight-code provides")), /*#__PURE__*/
+ 
+    ))))
 
 
 
