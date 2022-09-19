@@ -144,8 +144,7 @@ const Header = props => {
       React.createElement("h4", { className: "subtitle" }, ""), /*#__PURE__*/
       React.createElement("p", null, "Let the straight-code team help by choosing a plan we provide that fits your needs if you are unsure on the service you need please do hesitate to contact support with your enquiry."), /*#__PURE__*/
   
-  
-  
+
   
   
       React.createElement("p", null, "")))));
